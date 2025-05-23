@@ -8,37 +8,33 @@ body {
     padding: 20px;
 }
 
+/* Header Styles */
+.header-container {
+    margin-bottom: 20px;
+}
+
+.logo-title-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Logo Styles */
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #333333;
+}
+
 /* Typography */
 h1 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
-}
-
-.head {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-/* Logo Styles */
-.logo {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%; /* Make the logo circular */
-  object-fit: cover;
-  justify-content: center;
-  align-items: center;
-  margin-right: 1rem;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  border: 1px solid #333333; 
-}
-.logo img {
-  width: 100px;
-}
-.logo h1 {
-  font-size: 2.5rem;
-  margin-left: 1rem;
+    margin: 0; /* Remove default margin */
+    white-space: nowrap; /* Prevent title from wrapping */
 }
 
 h2 {
@@ -102,3 +98,114 @@ hr {
     font-size: 0.8em;
     color: #555;
 }
+
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9fafb;
+}
+
+/* Header Styles */
+.header-container {
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+.logo-title-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #333333;
+}
+
+h1 {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color: #1a365d;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #4a5568;
+    margin-bottom: 40px;
+    line-height: 1.7;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.cta-primary, .cta-secondary {
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-primary {
+    background-color: #3182ce;
+    color: white;
+    border: 2px solid #3182ce;
+}
+
+.cta-primary:hover {
+    background-color: #2c5282;
+    border-color: #2c5282;
+}
+
+.cta-secondary {
+    background-color: transparent;
+    color: #3182ce;
+    border: 2px solid #3182ce;
+}
+
+.cta-secondary:hover {
+    background-color: #ebf8ff;
+}
+
+/* Features Section */
+.features {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    color: #2d3748;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* Existing Resource Styles (from your original CSS) */
+/* ... (keep all your existing resource card styles) ... */
