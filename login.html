@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masar-e-Najah - Login</title>
+    <link rel="icon" href="imgs/masar_e_najah.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo-title-group">
+            <a href="index.html">
+                <img src="imgs/masar_e_najah.png" class="logo" alt="logo">
+            </a>
+            <h1>Login</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="login-container">
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                
+                <button type="submit" class="login-btn">Log In</button>
+                
+                <div class="divider">
+                    <span>or</span>
+                </div>
+                
+                <button type="button" class="social-login google">
+                    <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s96-fcrop64=1,00000000ffffffff-rw" alt="Google logo">
+                    Continue with Google
+                </button>
+                
+                <button type="button" class="social-login github">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo">
+                    Continue with GitHub
+                </button>
+                
+                <p class="signup-link">Don't have an account? <a href="signup.html">Sign up</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
