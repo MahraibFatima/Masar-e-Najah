@@ -53,11 +53,13 @@ body {
 
 /* Typography */
 h1 {
-  color: #2c3e50;
+  color: #2c5282;
   margin: 0;
   font-size: 2rem;
 }
-
+.dark-blue{
+   color: #2c5282; 
+}
 h2 {
   color: #2980b9;
   margin-top: 30px;
@@ -164,7 +166,7 @@ h2 {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #2c5282;
+  color: #2980b9;;
 }
 
 .resource-description {
