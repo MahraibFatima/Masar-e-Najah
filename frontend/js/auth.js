@@ -1,5 +1,5 @@
 // Backend API endpoint
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://masar-backend-ft88.onrender.com';
 
 // Handle signup form submission
 const signupForm = document.getElementById('signupForm');
