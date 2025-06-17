@@ -4,8 +4,8 @@
   "description": "Backend for Masar-e-Najah",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js",
     "start": "node server.js",
+    "devStart": "nodemon server.js",
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
